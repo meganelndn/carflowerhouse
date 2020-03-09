@@ -1,20 +1,30 @@
-body {
-    background: white;
+/* .bubble1 {
+    animation-name: move;
+    animation-duration: 3s;
+    fill: lightgrey;
 }
 
-#icon-tree {
-    height: 500px;
-}
+@keyframes move {
+    from {
+        left: 0px;
+    }
 
-.path {
-    stroke-dasharray: 850;
-    stroke-dashoffset: 855;
-    animation: dash 4s linear infinite;
-    stroke: black;
-}
-
-@keyframes dash {
     to {
-        stroke-dashoffset: 0;
+        left: 100px;
+    }
+} */
+
+.car {
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+@keyframes move {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 40%;
     }
 }
